@@ -1,4 +1,7 @@
-アプリケーションの起動：
+### クリーンアップ
+docker-compose down --volumes
+
+### 再ビルドと起動
 docker-compose up --build
 
 ブラウザで以下のURLにアクセス：
